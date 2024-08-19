@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LibraryManagement</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function Student(){
+            window.location.href = `${window.origin}/pages/students.html`;
+
+        }
+
+        function Teacher(){
+            window.location.href = `${window.origin}/pages/teachers.html`;
+        }
+    </script>
+</head>
+<body>
+    <div class="main">
+        <h1 id="heading">Library Portal</h1>
+        <button id="issue" type="submit" onclick="Student()">Register as Student</button>
+        <button id="donate" type="submit" onclick="Teacher()">Register as Teacher</button>
+    </div>
+</body>
+</html>

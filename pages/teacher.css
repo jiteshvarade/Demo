@@ -1,0 +1,45 @@
+body {
+    margin: 0%;
+    padding : 0%;
+}
+
+#heading {
+    margin: 0%;
+    position: relative;
+    top: 300px;
+    font-size: 100px;
+}
+
+.main {
+    background-image: url("https://live.staticflickr.com/4062/4474421855_4b20643258_b.jpg");
+    margin: 0%;
+    width: 100%;
+    height: 100vh;
+    padding: 0%;
+    color: white;
+    text-align: center;
+    top: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    background-color: white;
+    padding-right: 1%;
+    color: #000;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 8px; 
+    padding-top: 10px;
+    position: relative;
+    top: 350px;
+    padding-bottom: 10px;
+}
+
+button {
+    background-color: rgb(82, 194, 82);
+    border: 0px;
+    border-radius: 8px;
+    height: 40px;
+    width: 100px;
+}

@@ -1,0 +1,35 @@
+body {
+    margin: 0%;
+    padding : 0%;
+}
+
+#heading {
+    margin: 0%;
+    position: relative;
+    top: 300px;
+    font-size: 100px;
+}
+
+#issue, #donate {
+    position: relative;
+    margin: 0%;
+    top : 350px;
+    background-color: rgb(82, 194, 82);
+    border: 0px;
+    border-radius: 8px;
+    height: 40px;
+    width: 200px;
+    margin-left: 2%;
+    margin-right : 2%;
+}
+
+.main {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/024/889/405/non_2x/large-collection-of-old-books-on-wooden-shelves-in-library-generated-by-ai-photo.jpg");
+    margin: 0%;
+    width: 100%;
+    height: 100vh;
+    padding: 0%;
+    color: white;
+    text-align: center;
+    top: 0%;
+}
